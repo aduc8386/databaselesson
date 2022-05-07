@@ -13,7 +13,7 @@ import omt.aduc8386.databaselesson.model.Support;
 import omt.aduc8386.databaselesson.model.User;
 import omt.aduc8386.databaselesson.model.UserResponse;
 
-@Database(entities = {UserResponse.class, User.class, Support.class}, version = 1)
+@Database(entities = {UserResponse.class, User.class, Support.class}, version = 1, exportSchema = false)
 public abstract class RoomHelper extends RoomDatabase {
     public abstract UserResponseDAO userResponseDAO();
     public abstract UserDAO userDAO();

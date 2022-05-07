@@ -100,7 +100,8 @@ public class RealmFragment extends Fragment {
             List<User> user = userResponse.getUsers();
             FullUserAdapter fullUserAdapter = new FullUserAdapter(user);
             rcvInnerObject.setAdapter(fullUserAdapter);
-            rcvInnerObject.setLayoutManager(new LinearLayoutManager(getContext()));
+            LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getContext());
+            rcvInnerObject.setLayoutManager(linearLayoutManager);
             Support support = userResponse.getSupport();
             tvSupportUrl.setText(support.getUrl());
             tvSupportText.setText(support.getText());
