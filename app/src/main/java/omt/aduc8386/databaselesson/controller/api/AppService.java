@@ -1,4 +1,4 @@
-package omt.aduc8386.databaselesson.data.api;
+package omt.aduc8386.databaselesson.controller.api;
 
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;

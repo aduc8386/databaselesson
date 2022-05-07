@@ -1,6 +1,4 @@
-package omt.aduc8386.databaselesson.data.api;
-
-import com.google.gson.JsonObject;
+package omt.aduc8386.databaselesson.controller.api;
 
 import omt.aduc8386.databaselesson.model.UserResponse;
 import retrofit2.Call;

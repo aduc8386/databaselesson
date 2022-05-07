@@ -1,4 +1,4 @@
-package omt.aduc8386.databaselesson.view;
+package omt.aduc8386.databaselesson.controller;
 
 import android.content.Context;
 import android.content.Intent;
@@ -73,7 +73,6 @@ public class LoginActivity extends AppCompatActivity {
                 }
                 if(count == usersInDB.length)
                     Toast.makeText(LoginActivity.this, "Invalid username or password", Toast.LENGTH_SHORT).show();
-
             }
         });
 

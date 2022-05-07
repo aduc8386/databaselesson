@@ -1,4 +1,4 @@
-package omt.aduc8386.databaselesson.data.api;
+package omt.aduc8386.databaselesson.model.dao;
 
 import androidx.room.Dao;
 import androidx.room.Insert;

@@ -12,16 +12,14 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import java.util.ArrayList;
 import java.util.List;
 
-import omt.aduc8386.databaselesson.helper.RoomHelper;
-import omt.aduc8386.databaselesson.FullUserAdapter;
 import omt.aduc8386.databaselesson.R;
-import omt.aduc8386.databaselesson.data.api.AppService;
-import omt.aduc8386.databaselesson.model.UserResponse;
+import omt.aduc8386.databaselesson.controller.api.AppService;
+import omt.aduc8386.databaselesson.controller.helper.RoomHelper;
 import omt.aduc8386.databaselesson.model.Support;
 import omt.aduc8386.databaselesson.model.User;
+import omt.aduc8386.databaselesson.model.UserResponse;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

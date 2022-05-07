@@ -1,6 +1,4 @@
-package omt.aduc8386.databaselesson;
-
-import static android.media.CamcorderProfile.get;
+package omt.aduc8386.databaselesson.view;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,6 +10,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
+import omt.aduc8386.databaselesson.R;
 import omt.aduc8386.databaselesson.model.User;
 
 public class UserAdapter extends RecyclerView.Adapter<UserAdapter.MyViewHolder> {

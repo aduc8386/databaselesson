@@ -15,9 +15,8 @@ import java.util.Arrays;
 import java.util.List;
 
 import omt.aduc8386.databaselesson.R;
-import omt.aduc8386.databaselesson.helper.SharedPreferencesHelper;
+import omt.aduc8386.databaselesson.controller.helper.SharedPreferencesHelper;
 import omt.aduc8386.databaselesson.model.User;
-import omt.aduc8386.databaselesson.UserAdapter;
 
 public class SharedPreferencesFragment extends Fragment {
 

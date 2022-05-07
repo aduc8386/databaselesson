@@ -12,20 +12,14 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.google.gson.Gson;
-import com.google.gson.JsonObject;
-
 import java.util.List;
 
-import io.realm.Realm;
-import io.realm.RealmConfiguration;
-import omt.aduc8386.databaselesson.FullUserAdapter;
-import omt.aduc8386.databaselesson.data.api.AppService;
-import omt.aduc8386.databaselesson.helper.RealmHelper;
-import omt.aduc8386.databaselesson.model.UserResponse;
 import omt.aduc8386.databaselesson.R;
+import omt.aduc8386.databaselesson.controller.api.AppService;
+import omt.aduc8386.databaselesson.controller.helper.RealmHelper;
 import omt.aduc8386.databaselesson.model.Support;
 import omt.aduc8386.databaselesson.model.User;
+import omt.aduc8386.databaselesson.model.UserResponse;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

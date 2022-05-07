@@ -1,4 +1,4 @@
-package omt.aduc8386.databaselesson.helper;
+package omt.aduc8386.databaselesson.controller.helper;
 
 
 import android.content.Context;

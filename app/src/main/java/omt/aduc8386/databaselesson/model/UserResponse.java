@@ -1,14 +1,10 @@
 package omt.aduc8386.databaselesson.model;
 
-import androidx.room.Embedded;
 import androidx.room.Entity;
 import androidx.room.Ignore;
-import androidx.room.OnConflictStrategy;
 import androidx.room.PrimaryKey;
 
 import com.google.gson.annotations.SerializedName;
-
-import java.util.List;
 
 import io.realm.RealmList;
 import io.realm.RealmObject;

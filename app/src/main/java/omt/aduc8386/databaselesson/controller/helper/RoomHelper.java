@@ -1,4 +1,4 @@
-package omt.aduc8386.databaselesson.helper;
+package omt.aduc8386.databaselesson.controller.helper;
 
 import android.content.Context;
 
@@ -6,12 +6,12 @@ import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
-import omt.aduc8386.databaselesson.data.api.SupportDAO;
-import omt.aduc8386.databaselesson.data.api.UserDAO;
-import omt.aduc8386.databaselesson.data.api.UserResponseDAO;
 import omt.aduc8386.databaselesson.model.Support;
 import omt.aduc8386.databaselesson.model.User;
 import omt.aduc8386.databaselesson.model.UserResponse;
+import omt.aduc8386.databaselesson.model.dao.SupportDAO;
+import omt.aduc8386.databaselesson.model.dao.UserDAO;
+import omt.aduc8386.databaselesson.model.dao.UserResponseDAO;
 
 @Database(entities = {UserResponse.class, User.class, Support.class}, version = 1, exportSchema = false)
 public abstract class RoomHelper extends RoomDatabase {

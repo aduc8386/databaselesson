@@ -1,13 +1,9 @@
-package omt.aduc8386.databaselesson;
+package omt.aduc8386.databaselesson.view;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
-
-import omt.aduc8386.databaselesson.view.RealmFragment;
-import omt.aduc8386.databaselesson.view.RoomFragment;
-import omt.aduc8386.databaselesson.view.SharedPreferencesFragment;
 
 public class ViewPagerAdapter extends FragmentStateAdapter {
 

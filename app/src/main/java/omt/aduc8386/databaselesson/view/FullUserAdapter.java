@@ -1,4 +1,4 @@
-package omt.aduc8386.databaselesson;
+package omt.aduc8386.databaselesson.view;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -15,6 +15,7 @@ import com.bumptech.glide.Glide;
 
 import java.util.List;
 
+import omt.aduc8386.databaselesson.R;
 import omt.aduc8386.databaselesson.model.User;
 
 public class FullUserAdapter extends RecyclerView.Adapter<FullUserAdapter.MyViewHolder> {
