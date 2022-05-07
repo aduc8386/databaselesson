@@ -76,6 +76,7 @@ public class RealmFragment extends Fragment {
                 UserResponse userResponse = response.body();
 
                 RealmHelper realmHelper = new RealmHelper();
+
                 realmHelper.insertToRealm(userResponse);
 
                 UserResponse userResponseInRealm = realmHelper.getInstance().where(UserResponse.class).findFirst();
@@ -90,7 +91,7 @@ public class RealmFragment extends Fragment {
     }
 
     @SuppressLint("DefaultLocale")
-    public void showUserResponse(UserResponse userResponse) {
+    private void showUserResponse(UserResponse userResponse) {
         if (userResponse != null) {
             tvPage.setText(String.format("%d", userResponse.getPage()));
             tvPerPage.setText(String.format("%d", userResponse.getPerPage()));
